@@ -43,6 +43,10 @@ namespace TPFinalNivel3RamirezDiego
             tbImagen.Text = user.Imagen;
             tbImagen.Visible = false;
             lblImagen.Visible = false;
+            if (user.Admin)
+            {
+                btnAdmin.Visible = true;
+            }
         }
 
         public void Editar(bool i)
@@ -99,6 +103,11 @@ namespace TPFinalNivel3RamirezDiego
         {
             Session["usuario"] = null;
             CargarUser();
+        }
+
+        protected void btnAdmin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PanelControl.aspx");
         }
     }
 }

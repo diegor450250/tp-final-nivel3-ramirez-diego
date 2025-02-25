@@ -4,16 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="sectionStyle">
         <div class="perfilStyle">
-            <h3>Favoritos</h3>
-            <asp:Label ID="lblFavoritos" runat="server" Text="Aun no tienes favoritos..."></asp:Label>
-            <asp:GridView ID="gwFavoritos" runat="server" AutoGenerateColumns="false">
-                <Columns>
-                    <asp:BoundField headertext="Nombre" visible="true"/>
-
-                </Columns>
-            </asp:GridView>
-        </div>
-        <div class="perfilStyle">
             <asp:Image ID="imgPerfil" CssClass="imgPerfilStyle" runat="server"></asp:Image>
             <asp:Label ID="lblImagen" runat="server" Text="Url de imagen:"></asp:Label>
             <asp:TextBox ID="tbImagen" CssClass="tbStyle" runat="server"></asp:TextBox>
@@ -31,6 +21,7 @@
         </div>
     </section>
     <div class="cerrar-sesion">
+        <asp:Button ID="btnAdmin" Visible="false" CssClass="btnBusqueda" OnClick="btnAdmin_Click" runat="server" Text="Panel de control" />
         <asp:Button ID="btnCerrarSesion" CssClass="btnCerrarSesion" Onclick="btnCerrarSesion_Click" runat="server" Text="Cerrar Sesion" />
     </div>
 </asp:Content>

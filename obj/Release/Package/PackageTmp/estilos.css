@@ -1,0 +1,137 @@
+﻿body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.sectionStyle{
+    display:flex;
+    justify-content:center;
+}
+
+.navStyle {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    color: #C73E1D;
+}
+
+.ulStyle{
+    display:flex;
+    align-items:center;
+}
+
+.liStyle{
+    list-style:none;
+    margin:10px;
+    font-size: 20px;
+}
+
+.loginStyle{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:20px;
+    width:600px;
+    border: 1px solid black;
+    border-radius:8px;
+}
+
+.tbStyle{
+    border-radius:8px;
+    text-align:center;
+    width:300px;
+    margin:10px;
+}
+
+.btnStyle {
+    border-radius:8px;
+    width:200px;
+    margin:10px;
+    color:#6B7D7D;
+    background-color:#A6D8D4;
+    border-color:white;
+}
+
+.lblerrorStyle {
+    color:#D33232;
+}
+
+.perfilStyle {
+    border: 1px solid black;
+    border-radius: 8px;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:20px;
+    margin:20px;
+}
+
+.imgPerfilStyle {
+    width:300px;
+    margin:15px;
+    border-radius:50%;
+}
+
+.articuloStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagenArticulo {
+    width: 200px;
+    height: 230px;
+    margin-right: 20px;
+}
+
+.contArticuloStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #F0C808;
+    border-radius: 20px;
+    margin: 15px;
+    width: 800px;
+    height: 320px;
+    font-size: 20px;
+}
+
+.articulosStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cerrar-sesion{
+    display:flex;
+    flex-direction: column;
+    margin:15px 20% 0px 20%;
+}
+
+.btnCerrarSesion {
+    border-radius: 8px;
+    color: white;
+    background-color: #FF4747;
+    border-color: white;
+}
+
+.margen{
+    margin:10px;
+}
+
+.btnBusqueda {
+    background-color: #5DA9E9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+    border-color: white;
+}
+
+.busquedaStyle{
+    border-radius: 10px;
+    margin: 5px;
+}

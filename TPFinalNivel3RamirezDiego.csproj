@@ -69,6 +69,7 @@
     <Content Include="estilos.css" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
+    <Content Include="PanelControl.aspx" />
     <Content Include="Perfil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelControl.aspx.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelControl.aspx.designer.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="Perfil.aspx.cs">
       <DependentUpon>Perfil.aspx</DependentUpon>

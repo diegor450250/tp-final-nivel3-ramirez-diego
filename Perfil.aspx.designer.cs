@@ -15,24 +15,6 @@ namespace TPFinalNivel3RamirezDiego
     {
 
         /// <summary>
-        /// Control lblFavoritos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFavoritos;
-
-        /// <summary>
-        /// Control gwFavoritos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gwFavoritos;
-
-        /// <summary>
         /// Control imgPerfil.
         /// </summary>
         /// <remarks>
@@ -148,6 +130,15 @@ namespace TPFinalNivel3RamirezDiego
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCancelar;
+
+        /// <summary>
+        /// Control btnAdmin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAdmin;
 
         /// <summary>
         /// Control btnCerrarSesion.
